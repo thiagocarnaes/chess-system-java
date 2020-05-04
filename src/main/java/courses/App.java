@@ -1,5 +1,7 @@
 package courses;
 
+import courses.chess.ChessMatch;
+
 /**
  * Hello world!
  *
@@ -8,6 +10,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       ChessMatch chessMatch = new ChessMatch();
+
+       UI.printBoard(chessMatch.getPieces());
+
+
     }
 }
