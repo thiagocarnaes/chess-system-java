@@ -1,6 +1,8 @@
 package courses.chess;
 
-public class ChessException extends RuntimeException{
+import courses.boardgame.BoardException;
+
+public class ChessException extends BoardException{
 
     /**
      *
